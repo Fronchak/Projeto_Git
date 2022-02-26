@@ -10,6 +10,8 @@ public class application {
 		// TODO Auto-generated method stub
 		Connection conn = DB.getConnection();
 		DB.closeConnection();
+		
+		System.out.println("Conectando ao banco de dados!");
 	}
 
 }
